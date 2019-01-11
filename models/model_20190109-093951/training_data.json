@@ -182,6 +182,62 @@
       {
         "intent": "thankyou",
         "text": "tenks"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "nearby",
+            "entity": "location"
+          }
+        ],
+        "text": "places to eat nearby"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I feel hungry"
+      },
+      {
+        "intent": "thankyou",
+        "text": "gracias"
+      },
+      {
+        "intent": "love",
+        "text": "I love you"
+      },
+      {
+        "intent": "love",
+        "text": "you are the best"
+      },
+      {
+        "intent": "love",
+        "text": "kisses and hugs"
+      },
+      {
+        "intent": "love",
+        "text": ":* muah"
+      },
+      {
+        "intent": "love",
+        "text": "muaaaaahhhh"
+      },
+      {
+        "intent": "love",
+        "text": "you are so cute baby"
+      },
+      {
+        "intent": "love",
+        "text": "awwww"
+      },
+      {
+        "intent": "love",
+        "text": "cho cute"
       }
     ],
     "regex_features": [],

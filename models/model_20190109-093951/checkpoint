@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\yobro\\models/current/nlu\\default\\model_20190109-093951\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "D:\\yobro\\models/current/nlu\\default\\model_20190109-093951\\intent_classifier_tensorflow_embedding.ckpt"
