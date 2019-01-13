@@ -5,7 +5,9 @@ import argparse
 from datetime import datetime
 
 from rasa_nlu.model import Interpreter
-#import pyttsx
+import pyttsx3
+
+engine = pyttsx3.init()
 
 # Adding command line arguements
 parser = argparse.ArgumentParser()
@@ -34,13 +36,17 @@ else:
     model_name = 'model_' + model_no
     if model_name not in os.listdir('models/'):
         raise Exception('FileNotFound: '+model_name+' does not exist')
-
-
-interpreter = Interpreter.load(os.path.join('models', model_name))
-message = "here's some kisses :*"
+print(model_name)
+print(os.path.join('models', model_name))
+interpreter = Interpreter.load('models\\'+ model_name)
+message = "kisses!"
 result = interpreter.parse(message)
 reply = json.dumps(result, indent=0)
 #print(reply)
 print("*"*15)
-print(result["intent"]["name"])
-#print(type(reply))
+intent_final = result["intent"]["name"]
+print("INTENT:", str(intent_final))
+
+# Text-to-Speech
+engine.say(intent_final)
+engine.runAndWait()

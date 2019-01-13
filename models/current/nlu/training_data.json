@@ -184,60 +184,136 @@
         "text": "tenks"
       },
       {
-        "intent": "greet",
-        "text": "yo"
+        "intent": "goodbye",
+        "text": "bye"
       },
       {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 14,
-            "end": 20,
-            "value": "nearby",
-            "entity": "location"
-          }
-        ],
-        "text": "places to eat nearby"
+        "intent": "goodbye",
+        "text": "goodbye"
       },
       {
-        "intent": "restaurant_search",
-        "text": "I feel hungry"
+        "intent": "goodbye",
+        "text": "see you around"
       },
       {
-        "intent": "thankyou",
-        "text": "gracias"
+        "intent": "goodbye",
+        "text": "see you later"
       },
       {
-        "intent": "love",
-        "text": "I love you"
+        "intent": "mood_affirm",
+        "text": "yes"
       },
       {
-        "intent": "love",
-        "text": "you are the best"
+        "intent": "mood_affirm",
+        "text": "indeed"
       },
       {
-        "intent": "love",
-        "text": "kisses and hugs"
+        "intent": "mood_affirm",
+        "text": "of course"
       },
       {
-        "intent": "love",
-        "text": ":* muah"
+        "intent": "mood_affirm",
+        "text": "that sounds good"
       },
       {
-        "intent": "love",
-        "text": "muaaaaahhhh"
+        "intent": "mood_affirm",
+        "text": "correct"
       },
       {
-        "intent": "love",
-        "text": "you are so cute baby"
+        "intent": "mood_deny",
+        "text": "no"
       },
       {
-        "intent": "love",
-        "text": "awwww"
+        "intent": "mood_deny",
+        "text": "never"
       },
       {
-        "intent": "love",
-        "text": "cho cute"
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "no way"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "not really"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremely sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
       }
     ],
     "regex_features": [],
