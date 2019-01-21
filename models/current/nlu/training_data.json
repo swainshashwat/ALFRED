@@ -184,136 +184,140 @@
         "text": "tenks"
       },
       {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "nearby",
+            "entity": "location"
+          }
+        ],
+        "text": "places to eat nearby"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I feel hungry"
+      },
+      {
+        "intent": "thankyou",
+        "text": "gracias"
+      },
+      {
+        "intent": "love",
+        "text": "I love you"
+      },
+      {
+        "intent": "love",
+        "text": "you are the best"
+      },
+      {
+        "intent": "love",
+        "text": "kisses and hugs"
+      },
+      {
+        "intent": "love",
+        "text": ":* muah"
+      },
+      {
+        "intent": "love",
+        "text": "muaaaaahhhh"
+      },
+      {
+        "intent": "love",
+        "text": "you are so cute baby"
+      },
+      {
+        "intent": "love",
+        "text": "awwww"
+      },
+      {
+        "intent": "love",
+        "text": "cho cute"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "What's the weather today"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "london",
+            "entity": "location"
+          }
+        ],
+        "text": "What's the weather in london?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "How's the weather like"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "bhubaneswar",
+            "entity": "location"
+          }
+        ],
+        "text": "whats the weather like in bhubaneswar"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "tell me about the weather please"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "belgium",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the weather in belgium"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I want to eat some chinese"
+      },
+      {
         "intent": "goodbye",
         "text": "bye"
       },
       {
         "intent": "goodbye",
-        "text": "goodbye"
+        "text": "ciao ciao"
       },
       {
         "intent": "goodbye",
-        "text": "see you around"
+        "text": "see you"
       },
       {
         "intent": "goodbye",
-        "text": "see you later"
+        "text": "take care"
       },
       {
-        "intent": "mood_affirm",
-        "text": "yes"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "indeed"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "of course"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "that sounds good"
-      },
-      {
-        "intent": "mood_affirm",
-        "text": "correct"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "no"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "never"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "I don't think so"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "don't like that"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "no way"
-      },
-      {
-        "intent": "mood_deny",
-        "text": "not really"
-      },
-      {
-        "intent": "mood_great",
-        "text": "perfect"
-      },
-      {
-        "intent": "mood_great",
-        "text": "very good"
-      },
-      {
-        "intent": "mood_great",
-        "text": "great"
-      },
-      {
-        "intent": "mood_great",
-        "text": "amazing"
-      },
-      {
-        "intent": "mood_great",
-        "text": "wonderful"
-      },
-      {
-        "intent": "mood_great",
-        "text": "I am feeling very good"
-      },
-      {
-        "intent": "mood_great",
-        "text": "I am great"
-      },
-      {
-        "intent": "mood_great",
-        "text": "I'm good"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "very sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "unhappy"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "bad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "very bad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "awful"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "terrible"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "not very good"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "extremely sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "so sad"
+        "intent": "goodbye",
+        "text": "bye see ya"
       }
     ],
     "regex_features": [],

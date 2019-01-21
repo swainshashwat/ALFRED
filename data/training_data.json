@@ -269,6 +269,94 @@
         "text": "cho cute",
         "intent": "love",
         "entities": []
+      },
+      {
+        "text": "What's the weather today",
+        "intent": "ask_weather",
+        "entities": []
+      },
+      {
+        "text": "What's the weather in london?",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "london",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "How's the weather like",
+        "intent": "ask_weather",
+        "entities": []
+      },
+      {
+        "text": "whats the weather like in bhubaneswar",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "bhubaneswar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "tell me about the weather please",
+        "intent": "ask_weather",
+        "entities": []
+      },
+      {
+        "text": "how is the weather in belgium",
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "belgium",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I want to eat some chinese",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ciao ciao",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "take care",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye see ya",
+        "intent": "goodbye",
+        "entities": []
       }
     ],
     "regex_features": [],

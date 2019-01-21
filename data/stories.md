@@ -1,27 +1,25 @@
-## happy path
+## greeting
 * greet
-  - utter_greet
-* mood_great
-  - utter_happy
+    - utter_greet
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* mood_affirm
-  - utter_happy
-
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* mood_deny
-  - utter_goodbye
-
-## say goodbye
+## goodbye
 * goodbye
-  - utter_goodbye
+    - utter_goodbye
+
+## ask weather [reply location?]
+* ask_weather
+    - utter_ask_location
+
+## ask weather [reply weather info]
+* ask_weather
+    - action_weather## Generated Story -6533858942375851734
+* greet
+    - utter_greet
+* ask_weather
+    - utter_ask_location
+* ask_weather{"location": "london"}
+    - slot{"location": "london"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+

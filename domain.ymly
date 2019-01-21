@@ -1,0 +1,36 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_location
+- action_weather
+- utter_greet
+- utter_goodbye
+entities:
+- location
+intents:
+- greet
+- goodbye
+- ask_weather
+- restaurant_search
+- love
+- thankyou
+slots:
+  location:
+    type: text
+templates:
+  utter_ask_location:
+  - text: In what location?
+  - text: Mention the location please.
+  utter_goodbye:
+  - text: Bye
+  - text: toodooles
+  - text: Take care
+  - text: Ciao Ciao
+  - text: Adios
+  - text: See you soon
+  - text: buh-bye
+  utter_greet:
+  - text: Hey. How can I help?
+  - text: Heya. What can I do for you?
+  - text: What do you need?
+  - text: Hello. Tell me what I can do.

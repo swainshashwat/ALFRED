@@ -1,0 +1,9 @@
+## intent:ask_weather
+- what's the weather?
+- I want to know about the weather in [london](location)
+
+## intent:goodbye
+- ciao
+
+## intent:greet
+- Hi

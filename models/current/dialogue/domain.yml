@@ -1,0 +1,47 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+- action_weather
+config:
+  store_entities_as_slots: true
+entities:
+- location
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- ask_weather:
+    use_entities: true
+- restaurant_search:
+    use_entities: true
+- love:
+    use_entities: true
+- thankyou:
+    use_entities: true
+slots:
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: In what location?
+  - text: Mention the location please.
+  utter_goodbye:
+  - text: Bye
+  - text: toodooles
+  - text: Take care
+  - text: Ciao Ciao
+  - text: Adios
+  - text: See you soon
+  - text: buh-bye
+  utter_greet:
+  - text: Hey. How can I help?
+  - text: Heya. What can I do for you?
+  - text: What do you need?
+  - text: Hello. Tell me what I can do.
